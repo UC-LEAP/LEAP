@@ -1,0 +1,38 @@
+title: TEST LEAP
+description: ""
+theme: minima
+url: "https://UC-LEAP.github.io"
+baseurl: "/LEAP"   # must match the repo name exactly (case included)
+show_excerpts: true
+plugins:
+  - jekyll-seo-tag
+
+header_pages:
+  - _pages/about.md
+  - _pages/blog.md
+  - _pages/people.md
+  - _pages/subgroups.md
+  - _pages/projects.md
+  - _pages/publications.md
+  - _pages/news.md
+
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+timezone: America/Los_Angeles
+future: true
+
+minima:
+  social_links:
+    - { platform: twitter,  user_url: "https://x.com/YOUR_HANDLE" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/YOUR_HANDLE/" }
+

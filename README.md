@@ -1,4 +1,2 @@
-# LEAP
-Webpage project
-
-This is where we will update the webpage
+# TEST-LEAP
+This is just a test website on GitHub.
