@@ -1,4 +1,4 @@
-title: TEST LEAP
+title: LEAP
 description: ""
 theme: minima
 url: "https://UC-LEAP.github.io"
@@ -33,6 +33,6 @@ future: true
 
 minima:
   social_links:
-    - { platform: twitter,  user_url: "https://x.com/YOUR_HANDLE" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/YOUR_HANDLE/" }
+    - { platform: twitter,  user_url: "https://x.com/uc_leapai" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/uc-leap" }
 
