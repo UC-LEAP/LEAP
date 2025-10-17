@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-elcome to **LEAP**.
+Welcome to **LEAP**.
 
 Use the top navigation to explore
 
