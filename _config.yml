@@ -9,12 +9,12 @@ plugins:
 
 header_pages:
   - _pages/about.md
-  - _pages/blog.md
+  - _pages/news.md
   - _pages/people.md
   - _pages/subgroups.md
   - _pages/projects.md
   - _pages/publications.md
-  - _pages/news.md
+
 
 collections:
   pages:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to TEST LEAP"
+title: "Welcome to LEAP"
 date: 2025-10-03 12:00:00 -0700
 published: true
 ---

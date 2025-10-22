@@ -1,0 +1,18 @@
+<footer class="site-footer" style="text-align:center; padding:1em 0; background:#f8f8f8;">
+  <div class="footer-content">
+    <p>© 2025 {{ site.title }}</p>
+
+    {% if site.logo %}
+      <img src="{{ site.logo | relative_url }}" alt="{{ site.title }} logo" width="80" style="margin:0.5em auto;">
+    {% endif %}
+
+    <div class="social-icons" style="margin-top:0.5em;">
+      {% for link in site.minima.social_links %}
+        <a href="{{ link.user_url }}" target="_blank" style="margin:0 8px;">
+          <img src="{{ '/assets/icons/' | append: link.platform | append: '.svg' | relative_url }}" 
+               alt="{{ link.platform }}" width="24" style="vertical-align:middle;">
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</footer>
